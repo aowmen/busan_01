@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <script>
+    //함수:특정 작업을 수행하도록 설계된 코드 블럭
+    //변수 선언 및 사요으 각종 연산, 제어문, 반복문을 사용하여 원하는 작업을 수행하도록 소스코드를 한곳에 모아둔 것을 함수라고 함
+    var a=10;
+    var b=20;
+
+    console.log(a+b);
+
+    a=20;
+    b=30;
+
+    console.log(a+b)
+
+    a=30;
+    b=40;
+
+    console.log(a+b)
+
+    function add(){
+      var a=100;
+      var b=200;
+      console.log(a+b);
+    }
+
+    function sub(){
+      var a=200;
+      var b=100;
+      console.log(a-b);
+    }
+
+    var text1="함수 선언 전 호출";
+    var text2="함수 선언 후 호출";
+
+    printMsg(text1);
+
+    function printMsg(msg) {
+      console.log("함수 호출 메시지 : " + msg);
+    }
+  </script>
+<title></title>
+</head>
+<body>
+
+</body>

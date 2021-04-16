@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title></title>
+</head>
+<body>
+  <script>
+    var day;
+    var week=new Date().getDay();
+    switch(week){
+      case 0:
+      day="일요일"; break;
+      case 1:
+      day="월요일"; break;
+      case 2:
+      day="화요일"; break;
+      case 3:
+      day="수요일"; break;
+      case 4:
+      day="목요일"; break;
+      case 5:
+      day="금요일"; break;
+      case 6:
+      day="토요일"; break;
+      default:
+      day="없는 요일";
+
+      day="";
+      week=new Date().getDate();
+
+      if (week==1){
+        day="월요일";
+      }
+      else if (week==2){
+        day="화요일";
+      }
+      else if (week==3){
+        day="수요일";
+      }
+      else if (week==4){
+        day="목요일";
+      }
+      else if (week==5){
+        day="금요일";
+      }
+      else {
+        day="주말";
+      }
+    }
+    console.log("오늘은"+ day + "일입니다");
+  </script>
+</body>

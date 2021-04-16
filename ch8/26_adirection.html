@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <style>
+      div {
+        width: 100px;
+        height: 50px;
+        background-color: red;
+        position: relative;
+        animation: zzzz 5s linear infinite alternate;
+      }
+      div:hover {
+        background-color: green;
+      }
+      #box1 {
+        animation-delay: 3s;
+        animation-direction: reverse;
+      }
+      #box2 {
+        animation-delay: 5s;
+        animation-direction: alternate-reverse;
+      }
+      @keyframes zzzz  {
+        from {
+          left: 0px;
+        }
+        to {
+          left: 500px;
+        }
+      }
+    </style>
+    <title></title>
+  </head>
+  <body>
+    <div id="box1">애니메이션 박스</div>
+    <div id="box2">애니메이션 박스</div>
+  </body>
+</html>

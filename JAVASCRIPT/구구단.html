@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <script>
+      //구구단
+      var x = 2;
+      var y = 1;
+
+      while (x <= 9) {
+        while (y < 9) {
+          console.log(x + "x" + y + "=" + x * y);
+          y++;
+        }
+        y = 1;
+        x++;
+      }
+      //홀수 짝수 구분
+
+      var num = prompt("숫자를 입력해 주세요", "10");
+
+      if (num % 2 == 0) {
+        console.log(num + "은 짝수");
+      }
+      if (num % 2 == 1) {
+        console.log(num + "은 홀수");
+      }
+
+      //1~100에서 3의배수 출력,몇개인지도
+
+      var count=0;
+
+      for(var i=1;i<=100;i++){
+        if(i%3==0){
+          console.log("3의 배수 : "+i);
+          count++
+        }
+      }
+      console.log("3의 배수 : "+count+"개")
+    </script>
+  </body>
+</html>

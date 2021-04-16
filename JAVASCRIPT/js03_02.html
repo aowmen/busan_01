@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title></title>
+</head>
+<body>
+  <script>
+    var result=0;
+    for(var i = 1; i < 11; i++) {
+      result=result+i;
+    }
+
+    console.log(result);
+
+    //while 문:가장 기본적인 반복문
+    //초기식이 while문 밖에 존재함
+    //증감식이 실행코드영역에 같이 존재함
+    //조건식만 while문 키워드와 함께 사용
+
+    var count=0;
+    while(count<10){
+      console.log(count);
+      count++;
+    }
+
+    var count=0;
+    while(count<10){
+      count++;
+      console.log(count);
+    }
+
+    var count2=0;
+    while(count2<5){
+      console.log(count2);
+      count2++;
+    }
+
+    while(count2<5){
+      console.log(count2);
+      count2++;
+    }
+
+    var count3=0;
+    while(count2<5){
+      console.log(count3);
+      count3++;
+    }
+
+    var count3=0;
+    while(count2<5){
+      console.log(count3);
+    }
+
+    console.log("----------------------------------------------------")
+
+    co=0
+    result=0;
+    while(co<10){
+      co++;
+      result=result+co;
+    }
+    
+    console.log(result);
+    
+    var count4=0;
+    do{
+      console.log(count4)
+      count4++
+    } while(count4<5);
+
+    console.log("----------------------------------------------------")
+
+    for(var i = 0; i<10;i++){
+      if(i==5){
+        break
+      }
+      console.log("현재i값 : "+i);
+    }
+
+    
+    for(var i = 0; i<10;i++){
+      if(i==5){
+        continue
+      }
+      console.log("현재i값 : "+i);
+    }
+
+  </script>
+</body>
