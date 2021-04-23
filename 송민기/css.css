@@ -1,0 +1,27 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+footer>div>a {
+  text-decoration: none;
+}
+
+.card-img-top {
+  padding: 10px;
+  width: auto;
+  border: 1px solid gray;
+  display: none;
+}
+
+.card {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.card-body {
+  border: 1px solid gray;
+}
+
+#vis1,#vis2,#vis3:hover{
+  cursor: pointer;
+}
