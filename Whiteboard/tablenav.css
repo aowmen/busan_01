@@ -1,0 +1,18 @@
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+header{
+  font-size: 20px;
+}
+nav.left{
+  float: left;
+  height: auto;
+}
+
+aside.right{
+  float: right;
+  height: max-content;
+}
+aside,iframe{
+  position:relative;
+}
